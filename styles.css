@@ -1,6 +1,10 @@
 *{
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Roboto';
 }
+
+
+/* ---header styling---*/
+
 
 ul {
     list-style-type: none;
@@ -14,7 +18,8 @@ ul {
 
 ul a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 header{
@@ -28,4 +33,41 @@ header{
     font-size: 24px;
     color: #f9faf8;
     
+}
+
+/* ---hero styling---*/
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.hero1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero2{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.heroimage img{
+    width: 500px;
+    height: auto;
+}
+
+button{
+    /*margin: 16px;*/
+    color: #e5e7eb;
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px;
+    width: 120px;
 }
