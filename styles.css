@@ -2,6 +2,9 @@
     font-family:'Roboto';
 }
 
+/* body{
+    background-color: #1f2937;
+} */
 
 /* ---header styling---*/
 
@@ -27,6 +30,7 @@ header{
     background-color: #1f2937;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
 }
 
 .headerlogotext{
@@ -40,11 +44,9 @@ header{
 .hero{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly; 
     align-items: center;
-    
 }
-
 
 .hero1{
     font-size: 48px;
@@ -58,12 +60,12 @@ header{
 }
 
 .heroimage img{
+    margin-top: 100px;
     width: 500px;
     height: auto;
 }
 
 button{
-    /*margin: 16px;*/
     color: #e5e7eb;
     background-color: #3882f6;
     font-size: 18px;
@@ -71,3 +73,104 @@ button{
     padding: 8px;
     width: 120px;
 }
+
+/* Section 2 styling */
+
+.section2{
+    background-color: white;
+    color: #1f2937;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1; */
+}
+
+.section2 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 50px;
+}
+
+.boxes{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding-bottom: 50px;  
+}
+
+.box1  img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.box2  img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.box3  img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.box4  img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+/* Section 3 styling */
+
+.section3{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* Section 4 styling */
+
+.section4{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    
+}
+
+.bluebox{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px;
+    width: max-content;
+    /* text-align: center; */
+}
+
+
+ .bluebox button{
+    border: 3px solid;
+
+}
+
