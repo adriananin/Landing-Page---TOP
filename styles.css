@@ -1,9 +1,13 @@
 *{
     font-family:'Roboto';
+    
 }
 
 body{
     background-color: #1f2937;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 /* ---header styling---*/
